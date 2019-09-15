@@ -24,10 +24,11 @@ def add_supply_to_winter_holidays(supplies_hash, supply)
     if supply_hash == :winter
       holidays.each do |array, supply|
         array << supply
-        binding.pry
+        
       end
     end
   end
+  binding.pry
 end
 
 def add_supply_to_memorial_day(supplies_hash, supply)
