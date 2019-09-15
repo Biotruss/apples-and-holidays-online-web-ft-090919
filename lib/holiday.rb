@@ -22,7 +22,11 @@ end
 def add_supply_to_winter_holidays(supplies_hash, supply)
   holiday_supplies.each do |supply_hash, holidays|
     if supply_hash == :winter
-      holidays.each do |array|
+      holidays.each do |array, supply|
+        array << supply
+      end
+    end
+  end
 end
 
 def add_supply_to_memorial_day(supplies_hash, supply)
