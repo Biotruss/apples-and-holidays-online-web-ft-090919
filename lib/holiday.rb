@@ -19,8 +19,8 @@ def second_supply_for_fourth_of_july(supplies_hash)
   supplies_hash[:summer][:fourth_of_july][1]
 end
 
-def add_supply_to_winter_holidays(supplies_hash, array, supply)
-  supplies_hash[:winter][:christmas, :new_years] = supply
+def add_supply_to_winter_holidays(supplies_hash, supply)
+  supplies_hash[:winter][:array] = supply
 end
 
 def add_supply_to_memorial_day(supplies_hash, supply)
