@@ -21,7 +21,8 @@ end
 
 def add_supply_to_winter_holidays(supplies_hash, supply)
   holiday_supplies.each do |supply_hash, holiday|
-    
+    if supply_hash == :winter
+      
 end
 
 def add_supply_to_memorial_day(supplies_hash, supply)
